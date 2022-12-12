@@ -1,2 +1,2 @@
 # projeto-relogio-digital
- Projeto de um relógio digital.
+ Projeto de um relógio digital funcional.
