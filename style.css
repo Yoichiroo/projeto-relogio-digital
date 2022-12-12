@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Poppins:wght@400;500&family=Unna:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins';
+    background-color: black;
+}
+
+div.container {
+    height: 96vh;
+    position: relative;
+}
+
+input.conteudo {
+    width: 60%;
+    box-sizing: content-box;
+    font-size: 4rem;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s ease;
+}
+
+input.conteudo:hover {
+    font-size: 4.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 10px solid white;
+}
